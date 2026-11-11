@@ -1,0 +1,34 @@
+# AI model checkpoints and generated assets
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+*.pt
+*.pth
+*.bin
+models/
+datasets/
+renders/
+outputs/
+scratch/
+cache/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.flac
+*.mp3
+*.webm
+
+# Generated/build files
+build/
+build-*/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
